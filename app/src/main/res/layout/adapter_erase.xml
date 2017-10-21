@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imgBtn_eraser"
+        android:layout_width="@dimen/palette_width"
+        android:layout_height="@dimen/palette_height"
+        android:background="@color/transparent" />
+</LinearLayout>

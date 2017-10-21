@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_template_background"
+    tools:context="com.education.perfectme.paint.views.fragment.TemplateFragment">
+
+
+    <ImageView
+        android:id="@+id/imgV_template_fruit"
+        android:layout_width="@dimen/temp_section_width"
+        android:layout_height="@dimen/temp_section_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/temp_margin"
+        android:src="@drawable/ic_fruit" />
+
+    <ImageView
+        android:id="@+id/imgV_template_letters"
+        android:layout_width="@dimen/temp_section_width"
+        android:layout_height="@dimen/temp_section_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/temp_margin"
+        android:src="@drawable/ic_letters" />
+
+    <ImageView
+        android:id="@+id/imgV_template_numbers"
+        android:layout_width="@dimen/temp_section_width"
+        android:layout_height="@dimen/temp_section_height"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_numbers" />
+
+    <ImageView
+        android:id="@+id/imgV_template_animals"
+        android:layout_width="@dimen/temp_section_width"
+        android:layout_height="@dimen/temp_section_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/temp_margin"
+        android:src="@drawable/ic_animals" />
+
+    <ImageView
+        android:id="@+id/imgV_template_shapes"
+        android:layout_width="@dimen/temp_section_width"
+        android:layout_height="@dimen/temp_section_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/temp_margin"
+        android:src="@drawable/ic_shapes" />
+</RelativeLayout>

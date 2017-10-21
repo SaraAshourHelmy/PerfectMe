@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="paint_colors">
+        <item>@color/palette_black</item>
+        <item>@color/palette_grey_dark</item>
+        <item>@color/palette_pink</item>
+        <item>@color/palette_brown</item>
+        <item>@color/palette_grey_light</item>
+        <item>@color/palette_purple_dark</item>
+        <item>@color/palette_purple_light</item>
+        <item>@color/palette_red</item>
+        <item>@color/palette_orange</item>
+        <item>@color/palette_phosphoric_green</item>
+        <item>@color/palette_yellow</item>
+        <item>@color/palette_white</item>
+        <item>@color/palette_phosphoric_blue</item>
+        <item>@color/palette_olive</item>
+        <item>@color/palette_oil</item>
+        <item>@color/palette_petrol</item>
+        <item>@color/palette_brown_light</item>
+        <item>@color/palette_watermelon</item>
+        <item>@color/palette_blue</item>
+        <item>@color/palette_pink_dark</item>
+        <item>@color/palette_baby_blue</item>
+        <item>@color/palette_mov</item>
+        <item>@color/palette_brown_dark</item>
+    </integer-array>
+
+    <integer-array name="template_fruit">
+        <item>@drawable/ic_fruit_apple</item>
+        <item>@drawable/ic_fruit_banana</item>
+        <item>@drawable/ic_fruit_cherries</item>
+        <item>@drawable/ic_fruit_orange</item>
+        <item>@drawable/ic_fruit_pear</item>
+    </integer-array>
+
+    <integer-array name="template_letters">
+        <item>@drawable/ic_letter_a</item>
+        <item>@drawable/ic_letter_b</item>
+        <item>@drawable/ic_letter_c</item>
+        <item>@drawable/ic_letter_d</item>
+        <item>@drawable/ic_letter_e</item>
+        <item>@drawable/ic_letter_f</item>
+        <item>@drawable/ic_letter_g</item>
+        <item>@drawable/ic_letter_h</item>
+        <item>@drawable/ic_letter_i</item>
+        <item>@drawable/ic_letter_j</item>
+        <item>@drawable/ic_letter_k</item>
+        <item>@drawable/ic_letter_l</item>
+        <item>@drawable/ic_letter_m</item>
+        <item>@drawable/ic_letter_n</item>
+        <item>@drawable/ic_letter_o</item>
+        <item>@drawable/ic_letter_p</item>
+        <item>@drawable/ic_letter_q</item>
+        <item>@drawable/ic_letter_r</item>
+        <item>@drawable/ic_letter_s</item>
+        <item>@drawable/ic_letter_t</item>
+        <item>@drawable/ic_letter_u</item>
+        <item>@drawable/ic_letter_v</item>
+        <item>@drawable/ic_letter_w</item>
+        <item>@drawable/ic_letter_x</item>
+        <item>@drawable/ic_letter_y</item>
+        <item>@drawable/ic_letter_z</item>
+    </integer-array>
+
+    <integer-array name="template_numbers">
+        <item>@drawable/ic_number_1</item>
+        <item>@drawable/ic_number_2</item>
+        <item>@drawable/ic_number_3</item>
+        <item>@drawable/ic_number_4</item>
+        <item>@drawable/ic_number_5</item>
+        <item>@drawable/ic_number_6</item>
+        <item>@drawable/ic_number_7</item>
+        <item>@drawable/ic_number_8</item>
+        <item>@drawable/ic_number_9</item>
+        <item>@drawable/ic_number_10</item>
+    </integer-array>
+
+    <integer-array name="template_animals">
+        <item>@drawable/ic_animal_cat</item>
+        <item>@drawable/ic_animal_duck</item>
+        <item>@drawable/ic_animal_elephant</item>
+        <item>@drawable/ic_animal_fish</item>
+        <item>@drawable/ic_animal_hen</item>
+        <item>@drawable/ic_animal_lion</item>
+
+    </integer-array>
+
+    <integer-array name="template_shapes">
+        <item>@drawable/ic_shape_circle</item>
+        <item>@drawable/ic_shape_diamond</item>
+        <item>@drawable/ic_shape_moon</item>
+        <item>@drawable/ic_shape_oval</item>
+        <item>@drawable/ic_shape_rectangle</item>
+        <item>@drawable/ic_shape_square</item>
+        <item>@drawable/ic_shape_star</item>
+        <item>@drawable/ic_shape_triangle</item>
+    </integer-array>
+
+</resources>

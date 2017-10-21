@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- App main colors -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Activities Background -->
+    <color name="activity_paint_background">#a7e5af</color>
+    <color name="activity_template_background">#5eb600</color>
+    <color name="font_background">#e6b9e7</color>
+    <!-- palette -->
+    <color name="palette_black">#000000</color>
+    <color name="palette_grey_dark">#666666</color>
+    <color name="palette_pink">#ff6fcf</color>
+    <color name="palette_brown">#800000</color>
+    <color name="palette_grey_light">#e6e6e6</color>
+    <color name="palette_purple_dark">#400080</color>
+    <color name="palette_purple_light">#800080</color>
+    <color name="palette_red">#ff0000</color>
+    <color name="palette_orange">#ff8000</color>
+    <color name="palette_phosphoric_green">#00ff80</color>
+    <color name="palette_yellow">#ffff00</color>
+    <color name="palette_white">#ffffff</color>
+    <color name="palette_phosphoric_blue">#00ffff</color>
+    <color name="palette_olive">#808000</color>
+    <color name="palette_oil">#008040</color>
+    <color name="palette_petrol">#008080</color>
+    <color name="palette_brown_light">#804000</color>
+    <color name="palette_watermelon">#ff6666</color>
+    <color name="palette_blue">#0000ff</color>
+    <color name="palette_pink_dark">#ff00ff</color>
+    <color name="palette_baby_blue">#66ccff</color>
+    <color name="palette_mov">#cc66ff</color>
+    <color name="palette_brown_dark">#3f2a14</color>
+
+</resources>

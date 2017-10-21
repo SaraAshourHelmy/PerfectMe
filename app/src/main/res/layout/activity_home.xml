@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home">
+
+    <RelativeLayout
+        android:layout_width="@dimen/home_white_circle_width"
+        android:layout_height="@dimen/home_white_circle_height"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/home_white_circle_margin_bottom"
+        android:layout_marginLeft="@dimen/home_white_circle_margin_left"
+        android:layout_marginRight="@dimen/home_white_circle_margin_right"
+        android:layout_marginTop="@dimen/home_white_circle_margin_top"
+        android:background="@drawable/bg_home_white_circle">
+
+        <ImageView
+            android:layout_width="@dimen/home_white_inside_circle_width"
+            android:layout_height="@dimen/home_white_inside_circle_height"
+            android:layout_centerInParent="true"
+            android:src="@drawable/bg_home_center" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_happy_kids" />
+
+    </RelativeLayout>
+
+    <com.szugyi.circlemenu.view.CircleLayout
+        android:id="@+id/circleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:isRotating="true"
+        app:radius="@dimen/home_circle_radius"
+        app:speed="@integer/hom_circle_speed">
+
+        <ImageView
+            android:id="@+id/imgV_palette"
+            android:layout_width="@dimen/home_image_category_width"
+            android:layout_height="@dimen/home_image_category_height"
+            android:src="@drawable/ic_home_palette" />
+
+        <ImageView
+            android:id="@+id/imgV_videos"
+            android:layout_width="@dimen/home_image_category_width"
+            android:layout_height="@dimen/home_image_category_height"
+            android:src="@drawable/ic_home_videos" />
+
+        <ImageView
+            android:id="@+id/imgV_gifts"
+            android:layout_width="@dimen/home_image_category_width"
+            android:layout_height="@dimen/home_image_category_height"
+            android:src="@drawable/ic_home_gifts" />
+
+        <ImageView
+            android:id="@+id/imgV_abc"
+            android:layout_width="@dimen/home_image_category_width"
+            android:layout_height="@dimen/home_image_category_height"
+            android:src="@drawable/ic_home_abc" />
+
+        <ImageView
+            android:id="@+id/imgV_list_todo"
+            android:layout_width="@dimen/home_image_category_width"
+            android:layout_height="@dimen/home_image_category_height"
+            android:src="@drawable/ic_home_list_todo" />
+    </com.szugyi.circlemenu.view.CircleLayout>
+
+</RelativeLayout>
