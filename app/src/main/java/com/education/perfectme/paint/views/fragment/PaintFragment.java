@@ -102,6 +102,7 @@ public class PaintFragment extends Fragment implements PaintView,
         // define palette and brush size
         recycler_palette = (RecyclerView) view.findViewById(R.id.recycler_palette);
         imgV_paint = (ImageView) view.findViewById(R.id.imgV_paint);
+        imgV_paint.setOnTouchListener(this);
         imgV_brush1 = (ImageView) view.findViewById(R.id.imgV_brush1);
         imgV_brush2 = (ImageView) view.findViewById(R.id.imgV_brush2);
         imgV_brush3 = (ImageView) view.findViewById(R.id.imgV_brush3);
@@ -342,7 +343,7 @@ public class PaintFragment extends Fragment implements PaintView,
             paint = new Paint();
             setPaintOption();
             imgV_paint.setImageBitmap(bitmapPaint);
-            imgV_paint.setOnTouchListener(this);
+
         } catch (Exception e) {
             Log.e("error", e.getMessage());
         }

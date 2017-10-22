@@ -25,6 +25,7 @@ public class HomeActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        bindView();
     }
 
     @Override
@@ -36,12 +37,15 @@ public class HomeActivity extends BaseActivity {
         ABCImageView = (ImageView) findViewById(R.id.imgV_abc);
         giftsImageView = (ImageView) findViewById(R.id.imgV_gifts);
         todoListImageView = (ImageView) findViewById(R.id.imgV_list_todo);
-        circleLayout.setOnRotationFinishedListener(new CircleLayout.OnRotationFinishedListener() {
+
+        circleLayout.setOnItemSelectedListener(new CircleLayout.OnItemSelectedListener() {
             @Override
-            public void onRotationFinished(View view) {
-                navigateToActivity(selectedActivityName);
+            public void onItemSelected(View view) {
+
+                navigation(view);
             }
         });
+
         circleLayout.setOnItemClickListener(new CircleLayout.OnItemClickListener() {
             @Override
             public void onItemClick(View view) {
@@ -53,37 +57,38 @@ public class HomeActivity extends BaseActivity {
 
     private void navigation(View view) {
 
-        selectedActivityName = "";
+        Class selectedActivity;
         switch (view.getId()) {
 
             case R.id.imgV_abc:
                 //// TODO: 10/21/2017  navigate abc
-                selectedActivityName = ACTIVITY_CLASS_PALETTE;
+                selectedActivity = PaintActivity.class;
                 break;
             case R.id.imgV_palette:
                 //// TODO: 10/21/2017  navigate palette
-                selectedActivityName = ACTIVITY_CLASS_PALETTE;
+                selectedActivity = PaintActivity.class;
                 break;
             case R.id.imgV_gifts:
                 //// TODO: 10/21/2017  navigate gifts
-                selectedActivityName = ACTIVITY_CLASS_PALETTE;
+                selectedActivity = PaintActivity.class;
                 break;
             case R.id.imgV_videos:
                 //// TODO: 10/21/2017 navigate videos
-                selectedActivityName = ACTIVITY_CLASS_PALETTE;
+                selectedActivity = PaintActivity.class;
                 break;
             case R.id.imgV_list_todo:
                 //// TODO: 10/21/2017 navigate todo list
-                selectedActivityName = ACTIVITY_CLASS_PALETTE;
+                selectedActivity = PaintActivity.class;
                 break;
             default:
+                selectedActivity = null;
                 break;
         }
-
+        navigateToActivity(selectedActivity);
     }
 
-    private void navigateToActivity(String activityName) {
-        Intent intent = new Intent(this, PaintActivity.class);
+    private void navigateToActivity(Class activityName) {
+        Intent intent = new Intent(this, activityName);
         startActivity(intent);
     }
 
