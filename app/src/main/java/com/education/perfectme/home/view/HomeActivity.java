@@ -62,29 +62,30 @@ public class HomeActivity extends BaseActivity {
 
             case R.id.imgV_abc:
                 //// TODO: 10/21/2017  navigate abc
-                selectedActivity = PaintActivity.class;
+                //selectedActivity = ;
                 break;
             case R.id.imgV_palette:
-                //// TODO: 10/21/2017  navigate palette
+
                 selectedActivity = PaintActivity.class;
+                navigateToActivity(selectedActivity);
                 break;
             case R.id.imgV_gifts:
                 //// TODO: 10/21/2017  navigate gifts
-                selectedActivity = PaintActivity.class;
+                //selectedActivity = ;
                 break;
             case R.id.imgV_videos:
                 //// TODO: 10/21/2017 navigate videos
-                selectedActivity = PaintActivity.class;
+                //selectedActivity = ;
                 break;
             case R.id.imgV_list_todo:
                 //// TODO: 10/21/2017 navigate todo list
-                selectedActivity = PaintActivity.class;
+                //selectedActivity = ;
                 break;
             default:
-                selectedActivity = null;
+                //selectedActivity = null;
                 break;
         }
-        navigateToActivity(selectedActivity);
+
     }
 
     private void navigateToActivity(Class activityName) {
